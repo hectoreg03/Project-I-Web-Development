@@ -1,0 +1,118 @@
+body{
+    background-color: white;
+}
+
+*{
+    font-family: 'Amiri', serif;
+}
+
+
+.navbar{
+    background-color: black;
+    border-bottom: black 2px solid;
+    font-size: 25px;
+    font-weight: 400;
+}
+.nav-link{
+    color: white;
+    margin-top: 10px;
+}
+
+.navbar-brand{
+    background-color: black;
+    border: black 2px solid;
+    border-radius: 15%;
+}
+
+.nav-link:hover{
+    color: #A67168;
+}
+
+#botonesinicio{
+    position: absolute;
+    right: 2%;
+}
+
+#crearcuenta{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    font-weight: bold;
+    border: white 2px solid;
+    transition: transform 0.3s ease;
+    margin-top: 10px;
+    display: block;
+    width: 150px;
+}
+
+#crearcuenta:hover{
+    color: white;
+    background-color:#A67168;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#iniciarsesion{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    border: white 2px solid;
+    transition: transform 0.3s ease;
+    display: block;
+    width: 150px;
+}
+
+#iniciarsesion:hover{
+    color: white;
+    background-color: #A67168;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+.carousel-caption{
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+hr{
+    border: 5px solid black;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+h1{
+    color: black;
+    display: block;
+    margin-top: 2%;
+    position: absolute;
+    width: 100%;
+    left: 25%;
+    right: 25%;
+    margin-bottom: 2%;
+}
+
+.galerim1{
+    margin-top: 5%;
+}
+
+.texto1{
+    color: black;
+    align-self: center;
+}
+
+.texto2{
+    color: black;
+    align-self: center;
+}
+
+.texto3{
+    color: black;
+    align-self: center;
+}
