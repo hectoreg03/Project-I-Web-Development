@@ -1,0 +1,51 @@
+.btnprimary {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    font-weight: bold;
+    border: white 2px solid;
+    transition: transform 0.3s ease;
+    margin-top: 10px;
+    display: block;
+    width: 150px;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.btnprimary1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    font-weight: bold;
+    border: #E1D6D6 2px solid;
+    transition: transform 0.3s ease;
+    margin-top: 10px;
+    display: block;
+    width: 150px;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.cont1 {
+    vertical-align: middle;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 2%;
+    margin-bottom: 12%;
+}
+
+.cont {
+    vertical-align: middle;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 2%;
+    margin-bottom: 12%;
+}
+
+.caja {
+    width: 100%;
+    background-color: #E1D6D6;
+    border-radius: 8px;
+    border: #E1D6D6 5px solid;
+    border-radius: 8px;
+}
