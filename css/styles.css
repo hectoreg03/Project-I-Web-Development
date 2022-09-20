@@ -12,6 +12,7 @@ body{
     border-bottom: black 2px solid;
     font-size: 25px;
     font-weight: 400;
+    position: relative;
 }
 .nav-link{
     color: white;
@@ -29,8 +30,7 @@ body{
 }
 
 #botonesinicio{
-    position: absolute;
-    right: 2%;
+    position: relative;
 }
 
 #crearcuenta{
@@ -91,28 +91,40 @@ h1{
     color: black;
     display: block;
     margin-top: 2%;
-    position: absolute;
-    width: 100%;
-    left: 25%;
-    right: 25%;
+    text-align: center;
     margin-bottom: 2%;
 }
 
-.galerim1{
-    margin-top: 5%;
+#galeriam1{
+    position: relative;
 }
-
-.texto1{
-    color: black;
-    align-self: center;
+.imggal{
+    height: 100%;
+    width: 100%;
+    position: relative;
 }
-
-.texto2{
-    color: black;
-    align-self: center;
+.imgcont{
+    position: relative;
+    margin-bottom: 10px;
 }
-
-.texto3{
-    color: black;
-    align-self: center;
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 90%;
+}
+.texto-galeria{
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+  
+.imgcont:hover .middle {
+    opacity: 1;
 }
