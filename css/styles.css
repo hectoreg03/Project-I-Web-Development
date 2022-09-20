@@ -76,6 +76,22 @@ body{
     transform: scale(1.05);
 }
 
+
+.carousel-caption{
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+hr{
+    border: 5px solid black;
+    width: 100%;
+    margin: auto;
+}
+
+
+
 h1{
     color: black;
     display: block;
@@ -116,43 +132,4 @@ h1{
   
 .imgcont:hover .middle {
     opacity: 1;
-}
-
-.piedepagina{
-    margin-top: 5%;
-    width: 100%;
-    background-color: black;
-    position: relative;
-}
-
-#pdpg{
-    position: absolute;
-    bottom: 0%;
-}
-
-.row1{
-    margin-top: 10px;
-    text-align: center;
-    font-size:x-large;
-    margin-bottom: 10px;
-    font-weight: bolder;
-}
-
-.row1 div{
-    color: white;
-}
-
-.row2 .col-sm{
-    position: relative;
-}
-.linkspie{
-    position: relative;
-    left: 20%;
-    font-size: 20px;
-    color:white;
-    text-decoration: none;
-}
-
-.linkspie:hover{
-    color: #A67168;
 }
