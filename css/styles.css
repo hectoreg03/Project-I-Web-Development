@@ -29,6 +29,11 @@ body{
     color: #A67168;
 }
 
+#logomenucelulares{
+    color: white;
+    background-color: white;
+}
+
 #botonesinicio{
     position: relative;
 }
